@@ -1,0 +1,73 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-toggle{
+    margin-top: 19px;
+}
+
+.technical-list{
+    display: inline-flex;
+    background: white;
+    color: black;
+    padding: 2% 3%;
+    width: 100%;
+    margin: 0px;
+    background: gainsboro;
+    overflow-x: scroll;
+}
+
+.technical-list li{
+    margin: 0px 7px;
+    list-style: none;
+    background: green;
+    padding: 1% 4%;
+    border-radius: 4px;
+
+}
+
+.technical-list li:first-child{
+    margin: 0px;
+    margin-right: 2%;
+}
+
+.header-full-height{
+    height: 100%;
+}
+
+// IPHONE
+@media screen and (max-device-width : 414px){
+    .logo{
+        width: 17%;
+        height: auto;
+        padding: 0px;
+    }
+}
+
+
+// DESKTOP
+@media screen and (min-width: 768px)
+{
+      .logo{
+        width: 27%;
+        height: auto;
+        padding: 0px;
+        }
+        
+        ul.nav{
+            margin-top: 2%;
+        }
+}
