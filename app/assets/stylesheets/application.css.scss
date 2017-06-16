@@ -15,6 +15,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
 .navbar-toggle{
     margin-top: 19px;
 }
@@ -48,12 +52,83 @@
     height: 100%;
 }
 
+header .header-content .header-content-inner h1{
+    margin-top: 26% !important;
+    font-family: 'Lobster', cursive !important;
+    font-size: 4em !important;
+}
+
+.reason-tables{
+    border: solid 1px white;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.93);
+    margin: 3% 2%;
+    border-radius: 7px;
+}
+
+.reason-tables h1{
+    font-size: 4em;
+    color: #a94442;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.reason-tables p{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.section-indicator{
+    font-size: 1.2em;
+    list-style: none;
+    background: #ff2d21;
+    width: 11%;
+    padding: 3%;
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 57%;
+}
+
 // IPHONE
 @media screen and (max-device-width : 414px){
     .logo{
         width: 17%;
         height: auto;
         padding: 0px;
+    }
+    
+    section.download , section.features{
+        padding: 0px !important;
+    }
+    
+
+    .section-indicator{
+        font-size: 1.2em;
+        list-style: none;
+        background: #ff2d21;
+        width: 18%;
+        padding: 3%;
+        margin-top: 10%;
+        margin-left: 2%;
+        border-radius: 57%;
+    }
+
+    .section-indicator2{
+        font-size: 1.1em;
+        padding: 5.8% 0%;
+        color: white;
+        width: 22.9%;
+    }
+    
+    .header-content-inner p {
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-bottom: 16%;
+    }
+    
+    .btn-xl{
+        padding: 33px 19px !important;
+        border: dotted 3px !important;
+        margin-top: 24%;
     }
 }
 
