@@ -19,6 +19,9 @@
 @import "font-awesome";
 
 
+header{
+    height: 100%;
+}
 .navbar-toggle{
     margin-top: 19px;
 }
@@ -27,7 +30,7 @@
     display: inline-flex;
     background: white;
     color: black;
-    padding: 2% 3%;
+    padding: 3.2% 3%;
     width: 100%;
     margin: 0px;
     background: gainsboro;
@@ -37,10 +40,10 @@
 .technical-list li{
     margin: 0px 7px;
     list-style: none;
-    background: green;
+    background: white;
     padding: 1% 4%;
     border-radius: 4px;
-
+    color: #a94442;
 }
 
 .technical-list li:first-child{
@@ -150,6 +153,38 @@ header .header-content .header-content-inner h1{
     
     section.features .feature-item p{
         text-align: left !important;
+    }
+    
+    .service-title-mobile{
+        border: solid #a94442;
+        padding: 24% 0%;
+        border-radius: 3%;
+        width: 73%;
+        margin: 5% 12%;
+        background: #a94442;
+
+    }
+    
+    .service-title-mobile-2{
+        width: 80% !important;
+    }
+    
+    .service-subtitle-mobile{
+        
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+
+    }
+    
+    .service-paragraph{
+        font-size: 1.1em;
+    }
+    
+    .divider-hr{
+        border-color: rgb(169, 68, 66) !important;
+        border-width: 7px !important;
+        margin-bottom: 3% !important;
     }
 }
 
