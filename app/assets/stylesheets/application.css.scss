@@ -55,7 +55,7 @@
 header .header-content .header-content-inner h1{
     margin-top: 26% !important;
     font-family: 'Lobster', cursive !important;
-    font-size: 4em !important;
+    font-size: 3.8em !important;
 }
 
 .reason-tables{
@@ -120,15 +120,36 @@ header .header-content .header-content-inner h1{
     }
     
     .header-content-inner p {
-        font-size: 1.2em;
+        font-size: 1em;
         font-family: 'Open Sans Condensed', sans-serif;
         margin-bottom: 16%;
     }
     
     .btn-xl{
-        padding: 33px 19px !important;
+        padding: 28px 13px !important;
         border: dotted 3px !important;
         margin-top: 24%;
+    }
+    
+    .button-margin-top{
+        margin-top: 26%;
+    }
+    
+    section.features .feature-item h3{
+       
+        border-bottom: solid 4px #a94442;
+        /* background: #a94442; */
+        padding: 5px;
+        color: #a94442;
+        border-radius: 4px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: left;
+        font-size: 2.3em;
+ 
+    }
+    
+    section.features .feature-item p{
+        text-align: left !important;
     }
 }
 
