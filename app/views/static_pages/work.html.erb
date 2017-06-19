@@ -1,2 +1,120 @@
-<h1>StaticPages#work</h1>
-<p>Find me in app/views/static_pages/work.html.erb</p>
+
+    <!--SECTIONS CONTAINING ALL OF MY WORK-->
+    <section class="download bg-primary" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://www.purebeewax.com/" class="portfolio-box">
+                        <%= image_tag("beewax.png", :class => "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                   BRING ZEN TO YOUR HOME
+                                </div>
+                                <div class="project-name">
+                                   PUREBEEWAX
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <hr class="light hidden-lg">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://secret-earth-72381.herokuapp.com/login" class="portfolio-box">
+                        <%= image_tag("airalien.png", :class => "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                   A mimick of Airbnb currently under construction
+                                </div>
+                                <div class="project-name">
+                                   AirnAlien App
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <hr class="light hidden-lg">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://andsmileortho.com" class="portfolio-box">
+                        <img src="https://optimized360.com/wp-content/uploads/2016/12/orthodontics-and-smiles.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                  Dental Portfolio
+                                </div>
+                                <div class="project-name">
+                                 Andi's Smile
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <hr class="light hidden-lg">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://washburnsmiles.com" class="portfolio-box">
+                        <img src="https://optimized360.com/wp-content/uploads/2017/02/Washburn-Smiles-Website.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                   Dental Portfolio
+                                </div>
+                                <div class="project-name">
+                                  Washburn Smiles
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <hr class="primary hidden-lg">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://www.batesdental.com" class="portfolio-box">
+                        <img src="https://optimized360.com/wp-content/uploads/2016/07/Bates_Dental-1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                  Dental Portfolio
+                                </div>
+                                <div class="project-name">
+                                  Bates Dental
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <hr class="light hidden-lg">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://mismile.com" class="portfolio-box">
+                        <img src="https://optimized360.com/wp-content/uploads/2016/11/birmingham-center-for-cosmetic-dentistry-website.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                   Dental Portfolio
+                                </div>
+                                <div class="project-name">
+                                    Mismile
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    </section>
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2>We <i class="fa fa-heart"></i> new friends!</h2>
+            <ul class="list-inline list-social">
+                <li class="social-twitter">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social-facebook">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social-google-plus">
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!--Application Footer-->
+    <%= render "layouts/shared/footer" %>
