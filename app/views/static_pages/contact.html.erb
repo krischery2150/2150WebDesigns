@@ -1,82 +1,46 @@
-<header class="about-us-bg">
+<header class="about-us-bg" style="height:40%">
     <div class="header-content">
         <div class="header-content-inner about-us-header-position">
-            <ul style="list-style-type: none">
-                <li>picture</li>
-                <hr class="primary">
-                <li><h1 id="homeHeading">Kris Chery</h1></li>
-            </ul>
-            <%= link_to "BACK", root_path , :class => "btn btn-primary btn-xl page-scroll back-button" %>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>LET'S GET IN TOUCH</h3>
+                </div>
+                <hr class="light primary">
+            </div>
         </div>
     </div>
 </header>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-4">
-            Photo
-        </div>
-        <div class="col-xs-8">
-            <div class="row">
-             Last Name
-            </div>
-            <div class="row">
-            Kris's paragraph
-            </div>
-        </div>
+<section class=" bg-primary">
+<div class="container">
+    <div class="col-lg-4 col-lg-offset-2 text-center">
+    <i class="fa fa-phone fa-3x sr-contact"></i>
+    <p>224-509-1109</p>
     </div>
-    <div class="row">
-        <div class="col-xs-4">
-            Photo
-        </div>
-        <div class="col-xs-8">
-            <div class="row">
-             Last Name
-            </div>
-            <div class="row">
-            Kris's paragraph
-            </div>
-        </div>
-    </div> 
-    <div class="row">
-        <div class="col-xs-4">
-            Photo
-        </div>
-        <div class="col-xs-8">
-            <div class="row">
-             Last Name
-            </div>
-            <div class="row">
-            Kris's paragraph
-            </div>
-        </div>
-    </div> 
-    <div class="row">
-        <div class="col-xs-4">
-            Photo
-        </div>
-        <div class="col-xs-8">
-            <div class="row">
-             Last Name
-            </div>
-            <div class="row">
-            Kris's paragraph
-            </div>
-        </div>
-    </div> 
-    <div class="row">
-        <div class="col-xs-4">
-            Photo
-        </div>
-        <div class="col-xs-8">
-            <div class="row">
-             Last Name
-            </div>
-            <div class="row">
-            Kris's paragraph
-            </div>
-        </div>
-    </div> 
+    
+    <div class="col-lg-4 text-center">
+        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+        <p><a style="color:white"href="mailto:kris.chery2150@gmail.com">kris.chery2150@gmail.com</a></p>
+    </div>
 </div>
+</section>
+
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2>We <i class="fa fa-heart"></i> new friends!</h2>
+            <ul class="list-inline list-social">
+                <li class="social-twitter">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social-facebook">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social-google-plus">
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
 <!--Application Footer-->
 <%= render "layouts/shared/footer" %>
