@@ -123,13 +123,43 @@ header .header-content .header-content-inner h1{
     section#portfolio{
         margin-top: 10%;
     }
+    
+    .section-indicator-ipad{
+        width: 15%;
+        padding: 4% 2%;
+        color: white;
+ 
+    }
+    
+    .divider-hr{
+        border-width: 7px !important;
+        margin-bottom: 2%;
+        border-color: #a94442 !important;
+    }
+    
+    .service-paragraph{
+        text-align: left;
+    }
+    
+    .service-column-style{
+        margin-top: 8%;
+    }
+    
+    .service-icon{
+        
+        font-size: 5em !important;
+        padding: 5%;
+        border-radius: 16%;
+        color: #a94442;
+
+    }
 }
 // IPHONE
 @media screen and (max-device-width : 414px){
     .logo{
         width: 17%;
         height: auto;
-        padding: 6px;
+        padding-top: 4%;
     }
     
     section.download , section.features{
