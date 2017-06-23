@@ -70,6 +70,7 @@ header .header-content .header-content-inner h1{
     background: rgba(255, 255, 255, 0.93);
     margin: 3% 4%;
     border-radius: 7px;
+    box-shadow: 2px 4px 9px rgba(136, 136, 136, 0.49);
 }
 
 .reason-tables h1{
@@ -106,8 +107,10 @@ header .header-content .header-content-inner h1{
     
     .logo{
         padding: 3%;
-        width: 20%;
+        width: 21.4%;
         height: auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
     
     ul.nav{
@@ -172,11 +175,35 @@ header .header-content .header-content-inner h1{
 
 // IPHONE
 @media screen and (max-device-width : 414px){
-    .logo{
-        width: 17%;
-        height: auto;
-        padding-top: 4%;
+  .logo {
+    width: 21.4%;
+    height: auto;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    box-shadow: 6px 2px 9px rgba(255, 45, 33, 0.45);
+    background: #fdc63d;
+    padding-top: 4%;
+  }
+
+    
+    header .header-content .header-content-inner h1 {
+      font-family: 'Lobster', cursive !important;
+      font-size: 2.4em !important;
+      margin: 7% 0% !important;
+      margin-top: 6%!important;
     }
+    
+    .navbar-header{
+        margin-bottom: 1%;
+    }
+     .navbar-toggle {
+        font-size: 3.5rem !important;
+        padding: 0% 2.1% !important;
+        margin-bottom: 0%;
+        border: hidden !important;
+        margin-top: 4.3%;
+        margin-right: 3%;
+      }
     
     section.download , section.features{
         padding: 17px 0px !important;
@@ -218,10 +245,8 @@ header .header-content .header-content-inner h1{
     }
     
     section.features .feature-item h3{
-       
-        border-bottom: solid 4px #a94442;
-        /* background: #a94442; */
         padding: 5px;
+        padding-left: 0px !important;
         color: #a94442;
         border-radius: 4px;
         font-family: 'Open Sans Condensed', sans-serif;
@@ -311,13 +336,15 @@ header .header-content .header-content-inner h1{
         background: gainsboro;
     }
     
-    .header-content-inner > h5{
-        color: #fffbf3;
-        font-weight: bold;
-        margin: 6% 0%;
-        text-align: left;
-    
-    }
+  .header-content-inner > h5 {
+    color: #fffbf3;
+    font-weight: bold;
+    margin: 7% 0%;
+    margin-bottom: 0% !important;
+    text-align: left;
+    font-size: 1.3rem;
+    padding-left: 3%;
+  }
 
     hr.primary{
         border-width: 4px !important;
@@ -333,4 +360,10 @@ header .header-content .header-content-inner h1{
     .header-content-inner{
         padding-top: 33%;
     }
+    
+    nav#mainNav{
+        border-bottom: solid 3px #ff2d21;
+        // padding-top: 5% !important;
+    }
+    
 }
