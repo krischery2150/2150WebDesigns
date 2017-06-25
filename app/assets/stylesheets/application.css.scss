@@ -23,11 +23,22 @@
 
 header{
     height: 100%;
+    background: url("https://blackrockdigital.github.io/startbootstrap-new-age/lib/img/bg-pattern.png") !important;
+    background-color: linear-gradient(to left,#bf1e2e,rgb(247, 148, 29)) !important;
 }
 .navbar-toggle{
     margin-top: 19px;
 }
 
+    .section-indicator-ipad{
+        width: 12%;
+        padding: 3% 0%;
+        color: white;
+ 
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+          background-color: none !important;
+    }
 .technical-list{
     display: inline-flex;
     background: white;
@@ -105,16 +116,18 @@ header .header-content .header-content-inner h1{
         width: 55%;
     }
     
-    .logo{
-        padding: 3%;
-        width: 21.4%;
-        height: auto;
-        padding-top: 1%;
-        padding-bottom: 1%;
-    }
+  .logo {
+    width: 12.4%;
+    height: auto;
+    padding: 1% 1%;
+    margin: 3% 2%;
+    border-radius: 47px;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.34);
+    background: #ffffff;
+  }
     
     ul.nav{
-     margin-top: 2%;   
+     margin-top: 2.6%;   
     }
     
     section.download{
@@ -130,8 +143,8 @@ header .header-content .header-content-inner h1{
     }
     
     .section-indicator-ipad{
-        width: 15%;
-        padding: 4% 2%;
+        width: 12%;
+        padding: 3% 0%;
         color: white;
  
     }
@@ -176,13 +189,13 @@ header .header-content .header-content-inner h1{
 // IPHONE
 @media screen and (max-device-width : 414px){
   .logo {
-    width: 21.4%;
+    width: 15.4%;
     height: auto;
-    padding-top: 0%;
-    padding-bottom: 1%;
-    box-shadow: 6px 2px 9px rgba(255, 45, 33, 0.45);
-    background: #fdc63d;
-    padding-top: 4%;
+    padding: 1% 1%;
+    margin: 3% 2%;
+    border-radius: 47px;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.34);
+    background: #ffffff;
   }
 
     
@@ -194,16 +207,18 @@ header .header-content .header-content-inner h1{
     }
     
     .navbar-header{
-        margin-bottom: 1%;
+      margin-bottom: 1%;
     }
-     .navbar-toggle {
-        font-size: 3.5rem !important;
-        padding: 0% 2.1% !important;
-        margin-bottom: 0%;
-        border: hidden !important;
-        margin-top: 4.3%;
-        margin-right: 3%;
-      }
+
+   .navbar-toggle {
+     font-size: 3.5rem !important;
+     padding: 0% 2.1% !important;
+     margin-bottom: 0%;
+     border: hidden !important;
+     margin-top: 5.3%;
+     margin-right: 3%;
+     color: rgba(247, 148, 29, 0.74) !important;
+  }
     
     section.download , section.features{
         padding: 17px 0px !important;
@@ -363,7 +378,16 @@ header .header-content .header-content-inner h1{
     
     nav#mainNav{
         border-bottom: solid 3px #ff2d21;
-        // padding-top: 5% !important;
     }
     
+    .navbar-collapse.in{
+        background: rgba(0, 0, 0, 0.075);
+    }
+    
+    .nav > li:nth-child(2){
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+    }
+    
+
 }
